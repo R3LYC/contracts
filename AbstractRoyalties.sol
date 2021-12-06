@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../royalties/contracts/LibPart.sol";
+import "@R3LYC/contracts/blob/main/LibPart.sol";
 
 abstract contract AbstractRoyalties {
     mapping (uint256 => LibPart.Part[]) public royalties;
