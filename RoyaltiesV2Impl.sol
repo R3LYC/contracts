@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 import "@R3LYC/contracts/blob/main/AbstractRoyalties.sol";
 
-import "./contracts/rarible/royalties/contracts/RoyaltiesV2.sol";
+import "@R3LYC/contracts/blob/main/RoyaltiesV2.sol";
 
 contract RoyaltiesV2Impl is AbstractRoyalties, RoyaltiesV2 
 {
