@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./LibPart.sol"; 
+import "@R3LYC/contracts/blob/main/LibPart.sol"; 
 
 interface RoyaltiesV2 {
     event RoyaltiesSet (uint256 tokenId, LibPart.Part[] royalties);
